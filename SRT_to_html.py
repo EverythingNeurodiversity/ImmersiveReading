@@ -61,7 +61,7 @@ def hms_to_seconds(hms):
 
 def main():
   # Read the .srt file
-  with open('transcript.srt', 'r') as f:
+  with open('huberman69transcript.srt', 'r') as f:
     srt_str = f.read()
 
   # Convert the .srt transcript to the desired format
@@ -78,4 +78,3 @@ def main():
 
 if __name__ == '__main__':
   main()
-``
